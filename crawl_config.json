@@ -1,0 +1,5 @@
+{
+    "root_path": "test",
+    "url_file":"test",
+    "split_train": 0.99
+}
