@@ -1,5 +1,5 @@
 # Youtube crawler for TTS
- Extract transcripts and its audio give a list YT video id
+ Extract transcripts and their audio given a list of YT video ID
 
 **Notes**:
 - must install ffprobe and ffmpeg
