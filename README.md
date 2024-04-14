@@ -11,7 +11,7 @@ root
     |_ Information of the dataset is in the total_dataset.csv file, we have 5 columns
     |       |__1: id 
     |       |__2: corresponding transcript
-    |       |__3: duration of transcript
+    |       |__3: duration of transcript milliseconds
     |       |__4: path to speech file
     |       |__5: emotion
     |
