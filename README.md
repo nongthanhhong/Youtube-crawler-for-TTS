@@ -28,7 +28,7 @@ root
 
  **url_file**: *file list video id line by line*
 
- **lang** *prefer language of transcripts* check [YouTubeTranscriptApi](https://pypi.org/project/youtube-transcript-api/)
+ **lang**: *prefer language of transcripts* check [YouTubeTranscriptApi](https://pypi.org/project/youtube-transcript-api/)
 
  **split_train**: *train data ratio*
 
