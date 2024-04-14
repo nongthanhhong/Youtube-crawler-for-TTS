@@ -1,5 +1,6 @@
 {
     "root_path": "test",
-    "url_file":"test",
+    "url_file":"list_video_url.text",
+    "lang:": "vi",
     "split_train": 0.99
 }

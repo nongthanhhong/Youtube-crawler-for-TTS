@@ -1,9 +1,11 @@
 # Youtube crawler for TTS
- Extract subtitles and its audio give a list YT video id
+ Extract transcripts and its audio give a list YT video id
 
+**Notes**:
+- must install ffprobe and ffmpeg
 
 # crawl_data_from_youtube.py:
-- extract captions and speech from video
+- Extract transcript and speech from video and give as below:
 ```
 root
     |_ Information of the dataset is in the total_dataset.csv file, we have 5 columns
@@ -25,6 +27,8 @@ root
  **root_path**: *folder to save all data*
 
  **url_file**: *file list video id line by line*
+
+ **lang** *prefer language of transcripts* check [YouTubeTranscriptApi](https://pypi.org/project/youtube-transcript-api/)
 
  **split_train**: *train data ratio*
 

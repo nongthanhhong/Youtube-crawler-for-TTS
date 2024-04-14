@@ -139,11 +139,9 @@ def crawl_transcript(hsp):
     dataset = {"ID":[], "Text":[],"Duration":[], "Path":[], "Emotion":[]}
     list_url = get_from_file(os.path.join(hsp.url_file))
 
-    records = YouTubeTranscriptApi.get_transcripts(list_url, languages=['vi'])[0]
+    records = YouTubeTranscriptApi.get_transcripts(list_url, languages=[hsp.lang])[0]
     # print(records)
-
-    # return
-
+    
     # Get all files in the directory
     file_list = os.listdir(os.path.join(hsp.root_path, "speech"))
     count_id = len(file_list)
